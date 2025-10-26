@@ -348,6 +348,35 @@
 <!-- End paper abstract -->
 
 
+<!-- Single static image with caption -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <!-- TODO: Replace with your research result image -->
+      <img src="static/images/annotation_pipeline.jpg" alt="First research result visualization" loading="lazy" style="max-width:100%;height:auto;"/>
+      <!-- TODO: Replace with description of this result -->
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+      Overview of the data annotation pipeline and the application of seed questions. Annotation: 1) Expert-Guided Parametrization and Visualization: Each source question is first parameterized into a JSON annotation and paired with a MATLAB visualization program. 2) Automated Python Program Synthesis: The pipeline then synthesizes parameterized Python programs that generate textual descriptions and MATLAB invoke commands. 3) Automated MATLAB Program Synthesis: Correspondingly, the pipeline then synthesizes the param- eterized version of MATLAB programs for figure and video rendering. 4) Expert Verification: Final human checks ensure the correctness and usability of seed questions. Application: By inputting a random seed, each seed question is instantiated into a question instance.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Single static image with caption -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <!-- TODO: Replace with your research result image -->
+      <img src="static/images/comparison_model_performance.jpg" alt="First research result visualization" loading="lazy" style="max-width:100%;height:auto;"/>
+      <!-- TODO: Replace with description of this result -->
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+        Comparison of model performance on the Answer Accuracy (AA), Process Score (PS), and Process-Qualified Accuracy (PA) metrics. For the GPT-5 family, LLaVA-OneVision-1.5 family, and GLM-4.5V, the PS and PA metrics are not reported, as these models either do not disclose their reasoning traces by API or inherently do not produce explicit reasoning processes.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
@@ -355,33 +384,19 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/comp_origin.jpg" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Comparison of model performance on Answer Accuracy (AA) between DynaSolidGeo and source questions.
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="padding: 1.5rem 2rem; text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
+        <img src="static/images/comparison_tokens.jpg" alt="Second research result visualization" loading="lazy" style="max-width:50%;height:auto; display: inline-block;"/>
+        <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+          Comparison of average output tokens for correct, incorrect, and overall responses with corresponding performance.
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
   </div>
 </div>
 </div>
