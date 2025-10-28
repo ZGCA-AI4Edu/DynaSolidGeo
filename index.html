@@ -244,7 +244,7 @@
                 <a href="#" target="_blank">Laurence Tianruo Yang</a><sup>5,3</sup>,
               </span>
               <span class="author-block">
-                <a href="#" target="_blank">Kai Chen</a><sup>✉️,6,2</sup>,
+                <a href="#" target="_blank">Kai Chen</a><sup>✉️,6,2</sup>
               </span>
                   <span class="author-block">
                   </div>
@@ -294,7 +294,7 @@
 
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2510.22340" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -351,9 +351,9 @@
 <!-- Single static image with caption -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container has-text-centered">
+    <div class="container has-text-centered" style="max-width:70%;height:auto;">
       <!-- TODO: Replace with your research result image -->
-      <img src="static/images/annotation_pipeline.jpg" alt="First research result visualization" loading="lazy" style="max-width:100%;height:auto;"/>
+      <img src="static/images/annotation_pipeline.jpg" alt="First research result visualization" loading="lazy" />
       <!-- TODO: Replace with description of this result -->
       <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
       Overview of the data annotation pipeline and the application of seed questions. Annotation: 1) Expert-Guided Parametrization and Visualization: Each source question is first parameterized into a JSON annotation and paired with a MATLAB visualization program. 2) Automated Python Program Synthesis: The pipeline then synthesizes parameterized Python programs that generate textual descriptions and MATLAB invoke commands. 3) Automated MATLAB Program Synthesis: Correspondingly, the pipeline then synthesizes the param- eterized version of MATLAB programs for figure and video rendering. 4) Expert Verification: Final human checks ensure the correctness and usability of seed questions. Application: By inputting a random seed, each seed question is instantiated into a question instance.
@@ -365,9 +365,9 @@
 <!-- Single static image with caption -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container has-text-centered">
+    <div class="container has-text-centered" style="max-width:70%;height:auto;">
       <!-- TODO: Replace with your research result image -->
-      <img src="static/images/comparison_model_performance.jpg" alt="First research result visualization" loading="lazy" style="max-width:100%;height:auto;"/>
+      <img src="static/images/comparison_model_performance.jpg" alt="First research result visualization" loading="lazy" />
       <!-- TODO: Replace with description of this result -->
       <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
         Comparison of model performance on the Answer Accuracy (AA), Process Score (PS), and Process-Qualified Accuracy (PA) metrics. For the GPT-5 family, LLaVA-OneVision-1.5 family, and GLM-4.5V, the PS and PA metrics are not reported, as these models either do not disclose their reasoning traces by API or inherently do not produce explicit reasoning processes.
@@ -380,7 +380,7 @@
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container" style="max-width:60%;height:auto;">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
@@ -429,13 +429,15 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+      <pre id="bibtex-code"><code>@misc{wu2025dynasolidgeodynamicbenchmarkgenuine,
+        title={DynaSolidGeo: A Dynamic Benchmark for Genuine Spatial Mathematical Reasoning of VLMs in Solid Geometry}, 
+        author={Changti Wu and Shijie Lian and Zihao Liu and Lei Zhang and Laurence Tianruo Yang and Kai Chen},
+        year={2025},
+        eprint={2510.22340},
+        archivePrefix={arXiv},
+        primaryClass={cs.AI},
+        url={https://arxiv.org/abs/2510.22340}, 
+  }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
